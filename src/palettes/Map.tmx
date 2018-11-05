@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="64" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="WoodenFort" tilewidth="32" tileheight="32" tilecount="23" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-tl.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-tm.png"/>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-tr.png"/>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-clt.png"/>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-crt.png"/>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-ml.png"/>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-empty.png"/>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-mr.png"/>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-cld.png"/>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-crb.png"/>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-bl.png"/>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-bm.png"/>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-br.png"/>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-floor-ilts.png"/>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-floor-its.png"/>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-bridge-el.png"/>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-bridge-h.png"/>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-bridge-er.png"/>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-floor-ils.png"/>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-fort-floor-ins.png"/>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-bridge-et.png"/>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-bridge-v.png"/>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="solid" type="bool" value="false"/>
+   </properties>
+   <image width="32" height="32" source="../tiles/woodenfort-bridge-eb.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Base" width="64" height="24">
+  <data encoding="csv">
+1,2,2,2,3,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,1,2,2,2,3,7,7,1,2,2,2,3,7,7,7,7,7,7,7,7,7,7,7,1,2,2,2,2,2,2,2,2,3,7,7,7,7,1,2,2,2,3,
+6,14,15,15,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,14,15,15,8,7,7,6,14,15,15,8,7,7,7,7,7,7,7,7,7,7,7,6,14,15,15,15,15,15,15,15,8,7,7,7,7,6,14,15,15,8,
+6,19,20,20,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,20,20,20,8,7,7,6,19,20,20,8,7,7,7,7,7,7,7,7,7,7,7,6,19,20,20,20,20,20,20,20,16,17,17,17,17,18,20,20,20,8,
+6,19,20,20,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,19,20,20,8,7,7,6,19,20,20,5,2,2,3,7,7,7,1,2,2,2,2,4,19,20,20,20,20,20,20,20,8,7,7,7,7,6,19,20,20,8,
+11,12,21,12,13,7,7,7,7,7,7,7,7,7,7,7,7,7,7,1,2,2,4,19,20,20,8,7,7,6,19,20,20,15,15,15,8,7,7,7,6,14,15,15,15,15,20,20,20,10,12,12,21,12,13,7,7,7,7,11,12,21,12,13,
+7,7,22,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,14,15,15,20,20,20,8,7,7,6,19,20,20,20,20,20,16,17,17,17,18,20,20,20,20,20,20,20,20,8,7,7,22,7,7,7,7,7,7,7,7,22,7,7,
+7,7,22,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,19,20,20,20,20,20,8,7,7,6,19,20,20,20,20,20,8,7,7,7,6,19,20,20,20,20,20,20,20,8,7,7,22,7,7,7,7,7,7,7,7,22,7,7,
+1,2,23,2,2,2,2,3,7,7,7,7,7,7,7,7,7,7,7,6,19,20,20,20,20,20,8,7,7,6,19,20,20,10,12,12,13,7,7,7,11,12,21,12,12,12,12,12,12,13,7,7,22,7,7,7,7,7,7,7,7,22,7,7,
+6,14,20,15,15,15,15,8,7,7,7,7,7,7,7,7,7,7,7,6,19,20,20,10,12,12,13,7,7,6,19,20,20,8,7,7,7,7,7,7,7,7,22,7,7,7,7,7,7,7,7,7,22,7,7,7,7,7,7,1,2,23,2,3,
+6,19,20,20,20,20,20,8,7,7,7,7,7,7,7,7,7,7,7,6,19,20,20,8,7,7,7,7,7,6,19,20,20,8,7,7,7,7,7,7,7,7,22,7,7,7,7,7,7,7,7,7,22,7,7,7,7,7,7,6,14,20,15,8,
+6,19,20,20,20,20,20,8,7,7,7,7,7,7,7,7,1,2,2,4,19,20,20,5,2,2,2,2,2,4,19,20,20,5,2,2,3,7,7,7,7,7,22,7,7,7,7,7,7,7,1,2,23,2,3,7,7,7,7,6,19,20,20,8,
+11,12,12,9,19,20,20,8,7,7,7,7,7,7,7,7,6,14,15,15,20,20,20,15,15,15,15,15,15,15,20,20,20,15,15,15,8,7,7,7,7,7,22,7,7,7,7,7,7,7,6,14,20,15,8,7,7,7,7,6,19,20,20,8,
+7,7,7,6,19,20,20,16,17,17,17,17,17,17,17,17,18,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,8,7,7,7,7,7,22,7,7,7,7,7,7,7,6,19,20,20,8,7,7,7,7,11,12,21,12,13,
+1,2,2,4,19,20,20,8,7,7,7,7,7,7,7,7,6,19,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,8,7,7,7,1,2,23,2,3,7,7,7,7,7,6,19,20,20,8,7,7,7,7,7,7,22,7,7,
+6,14,15,15,20,20,20,8,7,7,7,7,7,7,7,7,11,12,21,12,12,12,12,9,19,20,20,20,20,20,10,12,9,19,20,20,8,7,7,7,6,14,20,15,8,7,7,7,7,7,6,19,20,20,8,7,7,7,7,7,7,22,7,7,
+6,19,20,20,20,20,20,8,7,7,7,7,7,7,7,7,7,7,22,7,7,7,7,6,19,20,20,20,20,20,8,7,6,19,20,20,16,17,17,17,18,20,20,20,8,7,7,7,7,7,6,19,20,20,8,7,7,7,7,7,7,22,7,7,
+6,19,20,20,20,20,20,8,7,7,7,7,7,7,7,7,7,7,22,7,7,7,7,6,19,20,20,20,20,20,8,7,6,19,20,20,8,7,7,7,6,19,20,20,8,7,7,7,7,7,6,19,20,20,8,7,7,7,7,1,2,23,2,3,
+11,12,21,12,12,12,12,13,7,7,7,7,7,7,7,7,7,7,22,7,7,7,7,11,12,12,9,19,20,20,8,7,11,12,12,12,13,7,7,7,6,19,20,20,8,7,7,7,7,7,6,19,20,20,8,7,7,7,7,6,14,20,15,8,
+7,7,22,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,22,7,7,7,7,7,7,7,6,19,20,20,8,7,7,7,7,7,7,7,7,7,6,19,20,20,8,7,7,7,7,7,6,19,20,20,8,7,7,7,7,6,19,20,20,8,
+1,2,23,2,3,7,7,7,7,7,7,7,7,7,7,7,1,2,23,2,3,7,7,1,2,2,4,19,20,20,5,2,2,3,7,7,7,7,7,7,6,19,20,20,5,2,2,2,2,2,4,19,20,20,5,2,2,2,2,4,19,20,20,8,
+6,14,20,15,8,7,7,7,7,7,7,7,7,7,7,7,6,14,20,15,8,7,7,6,14,15,15,20,20,20,15,15,15,8,7,7,7,7,7,7,6,19,20,20,15,15,15,15,15,15,15,20,20,20,15,15,15,15,15,15,20,20,20,8,
+6,19,20,20,16,17,17,17,17,17,17,17,17,17,17,17,18,20,20,20,16,17,17,18,20,20,20,20,20,20,20,20,20,16,17,17,17,17,17,17,18,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,8,
+6,19,20,20,8,7,7,7,7,7,7,7,7,7,7,7,6,19,20,20,8,7,7,6,19,20,20,20,20,20,20,20,20,8,7,7,7,7,7,7,6,19,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,8,
+11,12,12,12,13,7,7,7,7,7,7,7,7,7,7,7,11,12,12,12,13,7,7,11,12,12,12,12,12,12,12,12,12,13,7,7,7,7,7,7,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13
+</data>
+ </layer>
+</map>
