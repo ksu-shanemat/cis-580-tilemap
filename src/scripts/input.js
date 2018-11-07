@@ -4,6 +4,7 @@
   * will work for all keys on the keyboard
   */
 export default class Input {
+
   /** @constructor
     * Constructs a new instance of the Input class
     * and attaches event listeners to the window.
@@ -21,7 +22,6 @@ export default class Input {
       event.preventDefault();
       this.newState[event.key] = false;
     });
-
   }
 
   /** @method update
