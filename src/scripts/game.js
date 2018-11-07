@@ -1,5 +1,6 @@
 import Input from './input'
 import GameMap from './gameMap'
+import Camera from './camera'
 
 /** @class Game
   * A class representing the high-level functionality
@@ -70,16 +71,12 @@ export default class Game {
         document.body.append( this.screenBuffer )
     }
 
-    /** @method setupBuffer
-     * Creates new buffer
+    /** @method setCameraTracking
+     * Binds camera to given target object
+     * @param {Object} target - target for camera to follow
      */
-    setupBuffer() {
-        var buffer = document.createElement( 'canvas' )
-
-        buffer.width = this.width
-        buffer.height = this.height
-
-        return buffer
+    setCameraTracking(target) {
+        this.camera.bindTo( target )
     }
 
     /** @method addEntity
@@ -96,7 +93,9 @@ export default class Game {
      */
     update(elapsedTime) {
         this.entities.forEach( entity => entity.update( elapsedTime, this.input, this.map ) )
+
         this.input.update()
+        this.camera.update()
     }
 
     /** @method render
